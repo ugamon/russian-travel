@@ -1,8 +1,7 @@
-/* todo: нужно исправить, отступы не по БЭМ */
+
 .header {
     display: flex;
     width: 1184px;
-    margin: 28px auto 0 auto;
     justify-content: space-between;
     align-items: center;
 }
