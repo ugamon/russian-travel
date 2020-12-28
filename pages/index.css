@@ -34,3 +34,6 @@
 @import url('../blocks/intro/__list/intro__list.css');
 
 
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/root/__photo-grid/root__photo-grid.css');
+@import url('../blocks/photo-grid/__item/photo-grid__item.css');
