@@ -12,7 +12,15 @@
     text-align: center;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
+}
 
 
+@media all and (max-width: 320px){
+    .lead__subtitle {
+        margin-top: 16px;
+        width: 288px;
+        font-size: 16px;
+        line-height: 20px;
 
+    }
 }
