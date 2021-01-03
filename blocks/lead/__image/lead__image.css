@@ -9,3 +9,26 @@
   object-fit: cover;
     
 }
+
+@media all and (max-width: 1024px) {
+  .lead__image {
+    margin-top: 56px;
+    width: 928px;
+    height: 580px;  
+  }
+}
+
+@media all and (max-width: 768px) {
+  .lead__image {
+    width: 768px;
+    height: 480px;  
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead__image {
+    margin-top: 40px;
+    width: 320px;
+    height: 200px;  
+  }
+}
