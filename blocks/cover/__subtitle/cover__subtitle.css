@@ -13,9 +13,32 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    /* or 122% */
 
     text-align: center;
 
     color: #FFFFFF;
+}
+
+@media all and (max-width: 1024px){
+    .cover__subtitle {
+        top: 379px;
+        left: 332px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .cover__subtitle {
+        top: 299px;
+        left: 204px;
+    }
+}
+
+@media all and (max-width: 320px){
+    .cover__subtitle {
+        width: 288px;
+        top: 119px;
+        left: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

@@ -5,3 +5,25 @@
     justify-content: center;
 
 }
+
+@media all and (max-width: 1024px){
+    .photo-grid {
+        grid-template-columns: repeat(3, 300px);
+        gap: 14px;
+    }
+}
+
+@media all and (max-width:768px){
+    .photo-grid {
+        grid-template-columns: repeat(2, 352px);
+        gap: 16px;
+    }
+}
+
+
+@media all and (max-width:320px){
+    .photo-grid {
+        grid-template-columns: 288px;
+        gap: 12px;
+    }
+}

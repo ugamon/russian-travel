@@ -1,3 +1,15 @@
 .places__place {
-    margin-top: 80px;
+    margin-top: calc(80px - 48px);
+}
+
+@media all and (max-width: 768px){
+    .places__place {
+        margin-top: calc(73px - 48px);
+    }
+}
+
+@media all and (max-width: 320px){
+    .places__place {
+        margin-top: calc(50px - 32px);
+    }
 }

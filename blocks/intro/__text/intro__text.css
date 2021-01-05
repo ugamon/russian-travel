@@ -12,3 +12,16 @@
     color: #FFFFFF;
     width: 690px;
 }
+
+
+@media all and (max-width: 768px){
+  .intro__text{
+      width: 720px;
+  }
+}
+
+@media all and (max-width: 320px){
+    .intro__text {
+        width: 288px;
+    }
+}
