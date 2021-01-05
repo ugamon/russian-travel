@@ -1,9 +1,11 @@
 .lead__caption {
+    /* позиционирование */
     margin-left: 0;
     margin-right: auto;
     margin-top: 8px;
     margin-bottom: 0;
 
+    /* стили */
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
