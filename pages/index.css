@@ -1,14 +1,10 @@
-@import url('../fonts/Inter-Bold.woff2');
-@import url('../fonts/Inter-Regular.woff2');
-@import url('../fonts/Inter-Black.woff2');
-
-
 @import url('../blocks/root/root.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/root/__header/root__header.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__langs-links/header__langs-links.css');
 @import url('../blocks/header/__langs-link/header__langs-link.css');
+@import url('../blocks/header/__langs-link/_with-underline/header__langs-link_with-underline.css');
 
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/root/__lead/root__lead.css');
