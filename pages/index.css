@@ -1,3 +1,6 @@
+@import url('../vendor/normalize.css');
+@import url('./fonts.css');
+
 @import url('../blocks/root/root.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/root/__header/root__header.css');
@@ -19,6 +22,7 @@
 @import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__list/_is-normal/into__list_is-normal.css');
 
 
 @import url('../blocks/photo-grid/photo-grid.css');

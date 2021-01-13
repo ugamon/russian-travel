@@ -4,3 +4,16 @@
     margin-right: auto;
     margin-bottom: 0;
 }
+
+
+@media all and (max-width: 768px){
+    .root__places {
+        margin-top: 88px;
+    }
+}
+
+@media all and (max-width: 320px){
+    .root__places {
+        margin-top: 64px;
+    }
+}

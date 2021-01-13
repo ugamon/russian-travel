@@ -1,13 +1,7 @@
 .cover__subtitle {
     margin-top: 0;
     margin-bottom: 0;
-    
-    position: absolute;
-    width: 360px;
-    left: 412px;
-    top: 429px;
-    z-index: 3;
-
+    max-width: 360px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -19,25 +13,11 @@
     color: #FFFFFF;
 }
 
-@media all and (max-width: 1024px){
-    .cover__subtitle {
-        top: 379px;
-        left: 332px;
-    }
-}
 
-@media all and (max-width: 768px){
-    .cover__subtitle {
-        top: 299px;
-        left: 204px;
-    }
-}
 
 @media all and (max-width: 320px){
     .cover__subtitle {
         width: 288px;
-        top: 119px;
-        left: 16px;
         font-size: 14px;
         line-height: 16px;
     }

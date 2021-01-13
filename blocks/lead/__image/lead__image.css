@@ -7,7 +7,7 @@
   
   /*размер изображения*/
   max-width: 984px;
-  height: 615px;
+  max-height: 615px;
   
   object-fit: contain;
   display: block;
@@ -18,21 +18,20 @@
   .lead__image {
     margin-top: 56px;
     max-width: 928px;
-    height: 580px;  
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   .lead__image {
-    max-width: 768px;
-    height: 480px;  
+    margin-top: 56px;
+    width: 100%;
   }
 }
+
+
 
 @media all and (max-width: 320px) {
   .lead__image {
     margin-top: 40px;
-    max-width: 320px;
-    height: 200px;  
   }
 }

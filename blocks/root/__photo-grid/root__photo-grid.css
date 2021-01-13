@@ -4,3 +4,15 @@
     margin-right: auto;
     margin-bottom: 0;
 }
+
+@media all and (max-width: 768px){
+    .root__photo-grid {
+        margin-top: 88px;
+    }
+}
+
+@media all and (max-width: 320px){
+    .root__photo-grid {
+        margin-top: 64px;
+    }
+}
