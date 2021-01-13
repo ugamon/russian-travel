@@ -20,7 +20,7 @@
 }
 
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 630px) {
     .footer__link {
         font-size: 24px;
         line-height: 24px;
