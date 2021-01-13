@@ -14,14 +14,25 @@
     }
 }
 
+/* Tablet - 768px width and below */
+
 @media all and (max-width: 768px){
+    .place {
+        grid-template-columns: repeat(2, minmax(320px, 352px));
+        column-gap: 28px;
+    }
+}
+
+@media all and (max-width: 630px){
     .place {
         grid-template-columns: repeat(auto-fill, minmax(320px, 352px));
         column-gap: 28px;
     }
 }
 
-@media all and (max-width: 320px){
+/* L mobile - 425px width and below */
+
+@media all and (max-width: 425px){
     .place {
         grid-template-columns: 320px;
         row-gap: 32px;

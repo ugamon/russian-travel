@@ -13,6 +13,8 @@
     }
 }
 
+/* Tablet - 768px width and below */
+
 @media all and (max-width:768px){
     .photo-grid {
         grid-template-columns: repeat(2, minmax(288px, 352px));
@@ -20,8 +22,16 @@
     }
 }
 
+@media all and (max-width:720px){
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
 
-@media all and (max-width:320px){
+/* L mobile - 425px width and below */
+
+@media all and (max-width: 426px){
     .photo-grid {
         grid-template-columns: 288px;
         gap: 12px;
