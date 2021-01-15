@@ -11,7 +11,7 @@
     }
 }
 
-@media all and (max-width: 320px){
+@media all and (max-width: 426px){
     .root__photo-grid {
         margin-top: 64px;
     }

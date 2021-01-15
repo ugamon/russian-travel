@@ -10,7 +10,7 @@
 }
 
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 426px) {
   .header__langs-link {
     font-size: 18px;
     line-height: 20px;

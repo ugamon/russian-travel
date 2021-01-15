@@ -8,7 +8,7 @@
     justify-content: flex-end;
 }
 
-@media all and (max-width: 320px){
+@media all and (max-width: 426px){
     .place__website {
         margin-left: 16px;
     }

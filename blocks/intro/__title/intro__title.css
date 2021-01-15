@@ -13,7 +13,7 @@
 }
 
 
-@media all and (max-width: 320px){
+@media all and (max-width: 426px){
     .intro__title {
        
         font-size: 32px;
